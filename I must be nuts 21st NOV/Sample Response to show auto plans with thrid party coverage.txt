@@ -1,0 +1,52 @@
+{
+  "msgHdr": {
+    "success": "True",
+    "error": "",
+    "cd": "200",
+    "rsn": ""
+  },
+  "msgBdy": {
+    "userId": "Sarvesh",
+    "userImage": "https://scontent-amt2-1.cdninstagram.com/t51.2885-19/s150x150/14262769_342114716128056_857373176_a.jpg",
+    "text": "Yes! We do have. Let me get some details for you.",
+    "attachments": [
+      {
+        "type": "cards",
+        "data": [
+          {
+            "image": "https://etimg.etb2bimg.com/photo/55579807.cms",
+            "title": "Insuresafe",
+            "subtitle": "Third Party insurance plan",
+            "description": "Cashless claims,Conveyance Benefit,Third party coverage,Damage/loss of property,Breakdown assistance",
+            "postText": "Get more details.",
+            "callBackFn": "Tell me more about Insuresafe"
+          },
+          {
+            "image": "https://etimg.etb2bimg.com/photo/55579807.cms",
+            "title": "Insuresafe Plus",
+            "subtitle": "Third Party insurance plan with extended benefits",
+            "description": "Cashless claim,Conveyance Benefit,Third party coverage,Damage/loss of property,24X7 spot assistance",
+            "postText": "Get more details.",
+            "callBackFn": "Tell me more about Insuresafe Plus"
+          },
+          {
+            "image": "https://etimg.etb2bimg.com/photo/55579807.cms",
+            "title": "HeavyInsure",
+            "subtitle": "A Third party insurance plan with Zero liability coverage.n",
+            "description": "Zero Liability,Third party coverage,Medical payments coverage,Collision coverage,Breakdown assistance",
+            "postText": "Get more details.",
+            "callBackFn": "Tell me more about HeavyInsure"
+          },
+          {
+            "image": "https://etimg.etb2bimg.com/photo/55579807.cms",
+            "title": "HeavyInsure Plus",
+            "subtitle": "A Third party insurance plan with Zero liability coverage and extended benefitsn",
+            "description": "Zero Liability,Third party coverage,24X7 spot assistance,Medical payments coverage",
+            "postText": "Get more details.",
+            "callBackFn": "Tell me more about HeavyInsure Plus"
+          }
+        ]
+      }
+    ]
+  }
+}

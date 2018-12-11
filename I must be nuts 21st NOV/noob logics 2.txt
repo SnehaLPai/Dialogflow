@@ -1,0 +1,5 @@
+var arr = CSV.parse(req.body.result.parameters['feature']);
+    var i=0;
+    for(i=0;i<arr.length;i++){
+        query = query + " and features like '%" + arr[i] + "%'";
+     }

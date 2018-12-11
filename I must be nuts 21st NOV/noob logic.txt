@@ -1,0 +1,9 @@
+if(req.body.result.parameters['feature1']){
+      var query  = "select * from policytable where domain_name like '%"+req.body.result.parameters['domain']+"%' and features like '%" + req.body.result.parameters['feature1'] + "%'";
+    }
+    else if((req.body.result.parameters['feature1'])&&(req.body.result.parameters['feature2'])){
+      var query  = "select * from policytable where domain_name like '%"+req.body.result.parameters['domain']+"%' and features like '%" + req.body.result.parameters['feature1'] + "%' and features like '%"+ req.body.result.parameters['feature2'];
+    }
+    else{
+    var query  = "select policy_Name, overview, Features from policytable where domain_name like '%" + req.body.result.parameters['domain'] + "%'";
+    }
